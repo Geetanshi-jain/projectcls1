@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achiever Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee img {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center">Welcome to Our Achiever Gallery</h2>
+    <div class="marquee bg-light p-3 my-4 border rounded">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        <img src="https://via.placeholder.com/150" alt="Achiever 1">
+        <img src="https://via.placeholder.com/150" alt="Achiever 2">
+        <img src="https://via.placeholder.com/150" alt="Achiever 3">
+        <img src="https://via.placeholder.com/150" alt="Achiever 4">
+        <img src="https://via.placeholder.com/150" alt="Achiever 5">
+      </marquee>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
